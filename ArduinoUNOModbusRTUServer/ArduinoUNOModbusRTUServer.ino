@@ -9,8 +9,6 @@
 #include <ArduinoRS485.h> // ArduinoModbus depends on the ArduinoRS485 library
 #include <ArduinoModbus.h>
 
-const int ledPin = LED_BUILTIN;
-
 const int nAnalogInputs = 6;   // A0 .. A5
 const int nDigitalInputs = 14; // D0 .. D13
 
